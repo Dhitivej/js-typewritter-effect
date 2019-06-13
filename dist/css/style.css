@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
+body {
+	font-family: 'Kanit', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	height: 100vh;
+	background: #333
+		url('https://images.pexels.com/photos/316902/pexels-photo-316902.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
+		no-repeat center center/cover;
+	color: #ccc;
+	overflow: hidden;
+}
+.container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 3rem;
+}
+h1,
+h2 {
+	font-weight: 200;
+	margin: 0.4rem;
+}
+h1 {
+	font-size: 3.5rem;
+}
+h2 {
+	font-size: 2rem;
+	color: #aaa;
+}
+
+/* Cursor effect */
+.text-type > .txt {
+	border-right: 0.2rem #777 solid;
+}
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 5rem;
+	}
+}
+@media (max-width: 800px) {
+	.container {
+		padding: 0 1rem;
+	}
+	h1 {
+		font-size: 3rem;
+	}
+}
+@media (max-width: 500px) {
+	h1 {
+		font-size: 2.4rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+}
